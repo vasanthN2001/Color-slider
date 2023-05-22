@@ -1,12 +1,13 @@
-body{
+body {
     background-color: #1A237E;
 }
+
 .cont {
-    color:rebeccapurple;
+    color: rebeccapurple;
     max-inline-size: fit-content;
-    border:none;
+    border: none;
     outline: none;
-    background-color:#42A5F5;
+    background-color: #42A5F5;
     background: -webkit-linear-gradient(top left, white 50%, coral 50%);
 
 }
@@ -20,22 +21,47 @@ body{
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 80px;
-    background-color: rgb(0,0,0);
-    
+    background-color: rgb(0, 0, 0);
+
 }
-.silde{
+
+.silde {
     color: blue;
-    
+
 }
-#textbox{
-    background-color:white;
+
+#textbox {
+    background-color: white;
     outline: none;
     border: none;
     width: 200;
     text-align: center;
-    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
 }
-#copy{
+
+#copy {
     width: 250px;
     font-size: 20px;
+}
+
+#copy {
+
+    background: rgb(96, 9, 240);
+    background: linear-gradient(0deg, rgba(96, 9, 240, 1) 0%, rgba(129, 5, 240, 1) 100%);
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+#copy:before {
+    height: 0%;
+    width: 2px; 
+    
+}
+
+#copy:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+        -4px -4px 6px 0 rgba(116, 125, 136, .5),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
 }
